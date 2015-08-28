@@ -1,15 +1,48 @@
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="js/app.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <!-- Javascript -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="js/app.js"></script>
 
-<form id="search-term">
+  <!-- CSS -->
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+  <title>YouTube API</title>
+</head>
+<body>
+  
+  <header>
+    <div id="intro">
+      <h1>Welcome to the <br><span id="white">YouTube API</span></h1>
+    </div>
+    <h2>Search:</h2>
+  </header>
+
+  <form id="search-term">
 
   <input type="text" id="query" placeholder="Search YouTube">
+  <input type="text" id="results" placeholder="Number of Results">
+  <br>
   <button type="submit">Submit</button>
+  
+  
 
-</form>
+  </form>
 
-<div id="search-results">
-  <ul>
-  </ul>
-</div>
+  <div id="search-results">
+    <h2>Results:</h2>
+    <ul>
+    </ul>
+  </div>
+</body>
+</html>
+
+
+
+
 

@@ -1,0 +1,55 @@
+body {
+  font-family: 'Oswald';
+  text-align: center;
+  max-width: 35em;
+  padding-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+#intro {
+  background-color: crimson;
+  border-radius: 25px;
+  padding-top: .25em;
+  padding-bottom: .25em;
+}
+
+#white {
+  color: white;
+}
+
+h2 {
+  font-weight: 400;
+  margin-bottom: .1em;
+}
+
+form {
+  padding-bottom: 2em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+#search-results {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 25px;
+  padding-top: .25em;
+  padding-bottom: 1.25em;
+}
