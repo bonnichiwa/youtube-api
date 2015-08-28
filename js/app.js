@@ -23,7 +23,7 @@ function getRequest(searchTerm){
 function showResults(results) {
   var html = "";
   $.each(results, function(index,video){
-    html += "<li>" + video.snippet.title + "<br>" + "<a href='https://www.youtube.com/watch?v=" + video.id.videoId + "'><img src='" +  video.snippet.thumbnails.medium.url + "'/></a></li>" ;
+    html += "<li>" + video.snippet.title + "<br>" +  "<img src=" + video.snippet.thumbnails.medium.url + ">" + "</li>" ;
   });
   $('#search-results ul').html(html);
 }
